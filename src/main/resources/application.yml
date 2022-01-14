@@ -1,0 +1,12 @@
+spring:
+  thymeleaf:
+    suffix: .html
+    encoding: UTF-8
+    prefix: classpath:/templates/
+    enabled: on
+  freemarker:
+    charset: UTF-8
+    prefix: classpath:/templates/
+    suffix: .html
+    enabled: off
+
